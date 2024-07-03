@@ -40,11 +40,11 @@
       <!-- Header Starts -->
       <header class="max-w-[1170px] w-[90%] md:w-[82%] mx-auto mt-4 md:mt-7">
          <!-- Navbar Start -->
-         <nav class="navbar">
+         <div class="navbar bg-base-100">
             <div class="navbar-start">
                <div class="dropdown">
                   <div
-                     tabindex="{0}"
+                     tabindex="0"
                      role="button"
                      class="btn btn-ghost lg:hidden"
                   >
@@ -56,15 +56,15 @@
                         stroke="currentColor"
                      >
                         <path
-                           strokeLinecap="round"
-                           strokeLinejoin="round"
-                           strokeWidth="2"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                           stroke-width="2"
                            d="M4 6h16M4 12h8m-8 6h16"
                         />
                      </svg>
                   </div>
                   <ul
-                     tabindex="{0}"
+                     tabindex="0"
                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
                   >
                      <li><a>Home</a></li>
@@ -74,7 +74,7 @@
                   </ul>
                </div>
                <a href="#" class="btn btn-ghost text-xl">
-                  <img src="assets/logo dark.png" alt="" />
+                  <img src="assets/logo dark.png" alt="Logo" />
                </a>
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -86,11 +86,11 @@
                </ul>
             </div>
             <div class="navbar-end">
-               <button class="secondary-button">
+               <button class="flex items-center gap-2 secondary-button">
                   Appointment <i class="fa-solid fa-arrow-up rotate-45"></i>
                </button>
             </div>
-         </nav>
+         </div>
          <!-- Navbar End -->
 
          <!-- Banner Start -->
@@ -114,8 +114,8 @@
       <!-- Main Start -->
       <main class="max-w-[1170px] w-[90%] md:w-[82%] mx-auto">
          <!-- Who we are section start -->
-         <section class="py-10">
-            <div class="grid lg:grid-cols-12 gap-6 py-20 bg-yellow-100">
+         <section class="py-10 border-4">
+            <div class="grid lg:grid-cols-12 gap-6 bg-yellow-100">
                <!-- left side -->
                <div class="col-span-5">
                   <p class="common-subheading">Who we are</p>
@@ -153,6 +153,117 @@
             </div>
          </section>
          <!-- Who we are section end -->
+
+         <!-- Services Section Start -->
+         <section class="py-10 border-4">
+            <div class="bg-[#FFFFF5] p-10 border">
+               <div class="grid lg:grid-cols-2 gap-6 lg:gap-10">
+                  <!-- intro card -->
+                  <div class="">
+                     <p class="common-subheading">Service</p>
+                     <h2 class="common-heading">
+                        Empowering Health, Enriching Lives
+                     </h2>
+                     <p class="common-p text-sm">
+                        We are committed to providing high-quality,
+                        compassionate care to every patient we serve. Whatever
+                        your healthcare needs may be, you can trust us to be
+                        your partner in health and wellness.
+                     </p>
+                     <button class="primary-button mt-10">
+                        Appointment<i
+                           class="fa-solid fa-arrow-up rotate-45"
+                        ></i>
+                     </button>
+                  </div>
+
+                  <!-- card 1 -->
+                  <div class="relative">
+                     <img
+                        src="./assets//Rectangle 27-2.png"
+                        class="rounded-3xl"
+                        alt=""
+                     />
+                     <div
+                        class="p-5 bg-[#343268] bg-opacity-80 rounded-2xl absolute text-white bottom-5 left-5 w-[320px] flex items-end gap-4"
+                     >
+                        <div>
+                           <h3 class="text-xl font-semibold">
+                              Advanced Technology
+                           </h3>
+                           <p class="opacity-80 text-xs mt-2">
+                              Our surgeons are trained in the latest robotic
+                              surgical techniques, which allow for greater
+                              precision
+                           </p>
+                        </div>
+                        <div class="">
+                           <button class="bg-[#FFC637] size-10 rounded-full">
+                              <i class="fa-solid fa-arrow-up rotate-45"></i>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- card 2 -->
+                  <div class="relative">
+                     <img
+                        src="./assets/Rectangle 27-1.png"
+                        class="rounded-3xl"
+                        alt=""
+                     />
+                     <div
+                        class="p-5 bg-[#343268] bg-opacity-80 rounded-2xl absolute text-white bottom-5 left-5 w-[320px] flex items-end gap-4"
+                     >
+                        <div>
+                           <h3 class="text-xl font-semibold">
+                              Online Doctor Meet
+                           </h3>
+                           <p class="opacity-80 text-xs mt-2">
+                              Our surgeons are trained in the latest robotic
+                              surgical techniques, which allow for greater
+                              precision
+                           </p>
+                        </div>
+                        <div class="">
+                           <button class="bg-[#FFC637] size-10 rounded-full">
+                              <i class="fa-solid fa-arrow-up rotate-45"></i>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- card 3 -->
+                  <div class="relative">
+                     <img
+                        src="./assets/Rectangle 27.png"
+                        class="rounded-3xl"
+                        alt=""
+                     />
+                     <div
+                        class="p-5 bg-[#343268] bg-opacity-80 rounded-2xl absolute text-white bottom-5 left-5 w-[320px] flex items-end gap-4"
+                     >
+                        <div>
+                           <h3 class="text-xl font-semibold">
+                              Consultancy your health
+                           </h3>
+                           <p class="opacity-80 text-xs mt-2">
+                              Our surgeons are trained in the latest robotic
+                              surgical techniques, which allow for greater
+                              precision
+                           </p>
+                        </div>
+                        <div class="">
+                           <button class="bg-[#FFC637] size-10 rounded-full">
+                              <i class="fa-solid fa-arrow-up rotate-45"></i>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Services Section End -->
       </main>
       <!-- Main End -->
    </body>
