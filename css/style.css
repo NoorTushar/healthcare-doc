@@ -12,17 +12,19 @@ body {
 .secondary-button {
    border-radius: 12px;
    border: 1px solid #343268;
-   padding: 10px 22px;
+   padding: 14px 28px;
    display: flex;
    align-items: center;
-   gap: 8px;
+   gap: 10px;
+   font-weight: 500;
 }
 
 .primary-button {
    border-radius: 12px;
    background: #ffc637;
+   border: 1px solid #ffc637;
    display: inline-flex;
-   padding: 12px 24px;
+   padding: 14px 28px;
    justify-content: center;
    align-items: center;
    gap: 10px;
@@ -65,4 +67,19 @@ body {
    -moz-border-radius: 26px;
    -ms-border-radius: 26px;
    -o-border-radius: 26px;
+}
+
+.cta-gradient {
+   background: linear-gradient(to right, #020043 0%, rgba(2, 0, 67, 0.45) 100%);
+}
+
+.cta-learn-more-button {
+   border-radius: 12px;
+   border: 1px solid white;
+   padding: 14px 28px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-weight: 500;
+   color: white;
 }
