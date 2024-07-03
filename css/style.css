@@ -56,3 +56,13 @@ body {
    color: #4d4c7b;
    line-height: 24px;
 }
+
+.navy-card {
+   border-radius: 26px;
+   background: #343268;
+   padding: 34px 30px;
+   -webkit-border-radius: 26px;
+   -moz-border-radius: 26px;
+   -ms-border-radius: 26px;
+   -o-border-radius: 26px;
+}
