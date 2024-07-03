@@ -147,9 +147,9 @@ body {
 
 .review-box {
    border-radius: 3px;
-   background: #fff;
-   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
-   padding: 30px;
+   background: #fffff5;
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+   padding: 20px;
 }
 
 .review-box h5 {
@@ -168,7 +168,7 @@ body {
 }
 
 .swiper-testimonial {
-   padding: 60px 10px;
+   padding: 0px 10px 50px !important;
    padding-top: 30px;
 }
 .swiper-pagination-bullet-active {
