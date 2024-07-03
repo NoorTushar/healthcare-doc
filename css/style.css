@@ -13,6 +13,20 @@ body {
    border-radius: 12px;
    border: 1px solid #343268;
    padding: 10px 22px;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+
+.primary-button {
+   border-radius: 12px;
+   background: #ffc637;
+   display: inline-flex;
+   padding: 12px 24px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   font-weight: 500;
 }
 
 .banner-gradient {
@@ -21,4 +35,24 @@ body {
       rgba(0, 193, 157, 0) -25.42%,
       rgba(2, 0, 67, 0.47) 107.11%
    );
+}
+
+.common-subheading {
+   border-radius: 25px;
+   border: 1px solid #343268;
+   background: #fffff5;
+   padding: 10px 22px;
+   width: max-content;
+}
+
+.common-heading {
+   margin: 16px 0px;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 54px;
+}
+
+.common-p {
+   color: #4d4c7b;
+   line-height: 24px;
 }
