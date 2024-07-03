@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+/* Common CSS */
 body {
    font-family: "Inter", sans-serif;
    color: #020043;
@@ -31,14 +32,6 @@ body {
    font-weight: 500;
 }
 
-.banner-gradient {
-   background: linear-gradient(
-      179deg,
-      rgba(0, 193, 157, 0) -25.42%,
-      rgba(2, 0, 67, 0.47) 107.11%
-   );
-}
-
 .common-subheading {
    border-radius: 25px;
    border: 1px solid #343268;
@@ -59,6 +52,29 @@ body {
    line-height: 24px;
 }
 
+/* Banner CSS */
+
+.banner-gradient {
+   background: linear-gradient(
+      179deg,
+      rgba(0, 193, 157, 0) -25.42%,
+      rgba(2, 0, 67, 0.47) 107.11%
+   );
+}
+
+/* Stats CSS */
+.stat-header {
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.stat-description {
+   font-size: 14px;* 150% */
+   opacity: 0.8;
+}
+
+/* About us CSS */
+
 .navy-card {
    border-radius: 26px;
    background: #343268;
@@ -67,21 +83,6 @@ body {
    -moz-border-radius: 26px;
    -ms-border-radius: 26px;
    -o-border-radius: 26px;
-}
-
-.cta-gradient {
-   background: linear-gradient(to right, #020043 0%, rgba(2, 0, 67, 0.45) 100%);
-}
-
-.cta-learn-more-button {
-   border-radius: 12px;
-   border: 1px solid white;
-   padding: 14px 28px;
-   display: flex;
-   align-items: center;
-   gap: 10px;
-   font-weight: 500;
-   color: white;
 }
 
 /* slider testimonial */
@@ -133,7 +134,7 @@ body {
    background-color: #ffc637 !important;
 }
 
-/* faq */
+/* faq CSS */
 
 .faq {
    /* max-width: 700px; */
@@ -187,4 +188,21 @@ body {
 
 .faq.active .answer {
    max-height: 300px;
+}
+
+/* CTA CSS */
+
+.cta-gradient {
+   background: linear-gradient(to right, #020043 0%, rgba(2, 0, 67, 0.45) 100%);
+}
+
+.cta-learn-more-button {
+   border-radius: 12px;
+   border: 1px solid white;
+   padding: 14px 28px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-weight: 500;
+   color: white;
 }
