@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+   font-family: "Inter", sans-serif;
+   color: #020043;
+}
+
+.font-inter {
+   font-family: "Inter", sans-serif;
+}
+
+.secondary-button {
+   border-radius: 12px;
+   border: 1px solid #343268;
+   padding: 10px 22px;
+}
+
+.banner-gradient {
+   background: linear-gradient(
+      179deg,
+      rgba(0, 193, 157, 0) -25.42%,
+      rgba(2, 0, 67, 0.47) 107.11%
+   );
+}
